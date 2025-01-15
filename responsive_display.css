@@ -1,0 +1,1114 @@
+@keyframes example {
+0% {
+  opacity: 0;
+  transform: translateY(30px) scale(0.9);
+}
+100% {
+  opacity: 1;
+  transform: translateY(0px) scale(1);
+}
+}
+@keyframes example2 {
+0% {
+  opacity: 0;
+  transform: translateY(-30px) scale(0.9);
+}
+100% {
+  opacity: 1;
+  transform: translateY(0px) scale(1);
+}
+}
+
+/*====================Row====================*/
+
+row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0px;
+}
+.row:last-child {
+  margin-bottom: 0; 
+}
+.box_jb_top {
+  padding: 10px;
+  background-image: url('Jollibee/topjb.png');
+  background-position: 65%;
+  background-size: cover;
+  background_repeat: no-repeat;
+  flex: 1;
+  margin: 0px;
+  text-align: center;
+}
+@media (min-width: 1030px) {
+.box_jb_top {
+  height:450px;
+  margin: 3px;
+  background-image: url('');
+}
+}         
+.box_jb_bottom {
+  padding: 10px;
+  background-image: url('Jollibee/bottomjb.png');
+  background-position: 40%;
+  background-size: cover;
+  background_repeat: no-repeat;
+  flex: 1;
+  margin: 0px;
+  text-align: center;
+}
+@media (min-width: 1030px) {
+.box_jb_bottom {
+  height:450px;
+  margin: 3px;
+  background-image: url('');
+}
+}
+.box_mc_top {
+  padding: 10px;
+  background-image: url('McDonalds/topmc.png');
+  background-position: 30%;
+  background-size: cover;
+  background_repeat: no-repeat;
+  flex: 1;
+  margin: 0px;
+  text-align: center;
+}
+@media (min-width: 1030px) {
+.box_mc_top {
+  height:450px;
+  margin: 3px;
+  background-image: url('');
+}
+} 
+.box_mc_bottom {
+  padding: 10px;
+  background-image: url('McDonalds/bottommc.png');
+  background-position: 65%;
+  background-size: cover;
+  background_repeat: no-repeat;
+  flex: 1;
+  margin: 0px;
+  text-align: center;
+}
+@media (min-width: 1030px) {
+.box_mc_bottom {
+  height:450px;
+  margin: 3px;
+  background-image: url('');
+}
+} 
+.box_ck_top {
+  padding: 10px;
+  background-image: url('Chowking/topck.png');
+  background-position: 78%;
+  background-size: cover;
+  background_repeat: no-repeat;
+  flex: 1;
+  margin: 0px;
+  text-align: center;
+}
+@media (min-width: 1030px) {
+.box_ck_top {
+  height:450px;
+  margin: 3px;
+  background-image: url('');
+}
+} 
+.box_ck_bottom {
+  padding: 10px;
+  background-image: url('Chowking/bottomck.png');
+  background-position: 10%;
+  background-size: cover;
+  background_repeat: no-repeat;
+  flex: 1;
+  margin: 0px;
+  text-align: center;
+}
+@media (min-width: 1030px) {
+.box_ck_bottom {
+  height:450px;
+  margin: 3px;
+  background-image: url('');
+}
+} 
+.box_mi_top {
+  padding: 10px;
+  background-image: url('MangInasal/topmi.png');
+  background-position: 22%;
+  background-size: cover;
+  background_repeat: no-repeat;
+  flex: 1;
+  margin: 0px;
+  text-align: center;
+}
+@media (min-width: 1030px) {
+.box_mi_top {
+  height:450px;
+  margin: 3px;
+  background-image: url('');
+}
+} 
+.box_mi_bottom {
+  padding: 10px;
+  background-image: url('MangInasal/bottommi.png');
+  background-position: 35%;
+  background-size: cover;
+  background_repeat: no-repeat;
+  flex: 1;
+  margin: 0px;
+  text-align: center;
+}
+@media (min-width: 1030px) {
+.box_mi_bottom {
+  height:450px;
+  margin: 3px;
+  background-image: url('');
+}
+} 
+.box_gw_top {
+  padding: 10px;
+  background-image: url('Greenwich/topgw.png');
+  background-position: 70%;
+  background-size: cover;
+  background_repeat: no-repeat;
+  flex: 1;
+  margin: 0px;
+  text-align: center;
+}
+@media (min-width: 1030px) {
+.box_gw_top {
+  height:450px;
+  margin: 3px;
+  background-image: url('');
+}
+} 
+.box_gw_bottom {
+  padding: 10px;
+  background-image: url('Greenwich/bottomgw.png');
+  background-position: 55%;
+  background-size: cover;
+  background_repeat: no-repeat;
+  flex: 1;
+  margin: 0px;
+  text-align: center;
+}
+@media (min-width: 1030px) {
+.box_gw_bottom {
+  height:450px;
+  margin: 3px;
+  background-image: url('');
+}
+} 
+
+/*====================column====================*/
+
+@media (min-width: 1030px) {
+.container {
+  display: grid;
+  grid-template-areas:
+  "left right"; 
+  grid-template-columns: 1fr 3fr;
+  gap: 0px;
+  padding: 0px;
+}
+.container > div {
+  padding: 0px;
+}
+.container > div.left {
+  grid-area: left;
+  width:50vw;
+  height:auto;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.container > div.right {
+  grid-area: right;
+  width:48.7vw;
+  height:auto;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+}
+/*==================== Font Section ====================*/
+
+@font-face{
+  font-family: myFont;
+  src:url(Fonts/KeepCalm.ttf);
+}
+@font-face{
+  font-family: newFont;
+  src:url(Fonts/Flam.ttf);
+}
+@font-face{
+  font-family: newFont2;
+  src:url(Fonts/Garet.ttf);
+}
+@font-face{
+  font-family: newFont3;
+  src:url(Fonts/Speed.ttf);
+}
+
+@font-face{
+  font-family: newFont4;
+  src:url(Fonts/Wonderly.otf);
+}
+
+@font-face{
+  font-family: newFont5;
+  src:url(Fonts/Dinosaur.ttf);
+}
+
+@font-face{
+  font-family: newFont6;
+  src:url(Fonts/Baskervville.ttf);
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+/*==================== Navigation Mobile ====================*/
+
+.dropbtn {
+  position:fixed;
+  color: white;
+  padding: 5px;
+  border: none;
+  background-color: rgba(85, 85, 85, 0.1);
+}
+
+
+.dropdown {
+  position: fixed;
+  display: inline-block;
+  z-index: 1000;
+}
+
+@media (min-width: 1025px) {
+.dropdown {
+  position: fixed;
+  display: inline-block;
+  z-index: -1;
+}
+}
+
+.nav {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index:1000;
+  background-color: black;
+  
+}
+
+.nav a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 1em;
+  font-family: newFont2;
+}
+
+.nav a:hover {
+background-color: #ddd;
+}
+
+.dropdown:hover .nav {
+display: block;
+}
+
+.dropdown:hover .dropbtn {
+background-color: rgba(85, 85, 85, 0.1);
+}
+
+.menutxt{
+  padding-left: 10px;
+  color: white;
+  font-size: 1em;
+  font-family: newFont2;
+}
+/*==================== Navigation PC ====================*/
+nav_pc {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  background-color: "";
+  padding: 10px;
+  z-index: 1000;
+  display: flex;
+  justify-content: left;
+  gap: 20px;
+}
+@media (max-width: 1025px) {
+nav_pc {
+  z-index: -1;
+}
+}
+nav_pc a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 10px;
+  border-radius: 100px;
+  font-family: Arial;
+}
+  nav_pc a:hover {
+  background-color: #777;
+  background-color: rgba(85, 85, 85, 0.5);
+}
+/*==================== Intro Section ====================*/
+
+
+.intro{
+  height: auto;
+  background-image: url('Intro/bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 60%;
+  padding:1vh;
+}
+
+
+.div2 {
+  padding-top:80px;
+  padding-bottom:80px;
+  margin:0px;
+  
+}
+
+@media (min-width: 1025px) {
+.div2 {
+  padding-top:150px;
+  padding-bottom:150px;
+  padding-right:10px;
+  padding-left:10px;
+  margin:0px;
+}
+}
+
+h1{
+  animation-name: example;
+  animation-duration: 2s;  
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  line-height: 1.1;
+  font-size: 2.2em ;
+  font-family: myFont;
+  color: white;
+  text-align: center;
+  margin:0px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+@media (min-width: 1025px) {
+h1{
+  font-size: 5em;
+  text-align: center;
+}
+}
+
+.ph_flag{
+  animation-name: example2;
+  animation-duration: 2s;  
+  animation-delay: 1s;
+  animation-fill-mode: both;
+  height: 70px;
+  width: 140px;
+  position:relative;
+  
+}
+
+@media (min-width: 1025px) {
+.ph_flag{
+  height: 110px;
+  width: 220px; 
+  right:5px; 
+}
+}
+
+button_check {
+
+  animation-name: example;
+  animation-duration: 1.5s;  
+  animation-delay: 2s;
+  animation-fill-mode: both;
+  border: 3px solid black;
+  border-color: white;
+  border-radius: 60px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2em;
+  font-family: newFont;
+  cursor: pointer;
+  background-color: #fe6f00;
+ 
+}
+
+@media (min-width: 1025px) {
+button_check {
+  font-size: 1.8em;
+}
+}
+
+button_check:hover {
+  background-color: orange;
+}
+
+/*==================== About Section ====================*/
+
+.div3 {
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-left:10px;
+  padding-right:10px;
+  margin:0px;
+}
+
+.about{
+  height:auto;
+  background-image: url('Intro/section2bg.png');  
+  background-position: 50%;
+  background-size: cover;
+  background_repeat: no-repeat;
+}
+
+.h2 {
+  font-family: myFont;
+  font-size: 1.3em;
+  text-align: center;
+  
+}
+
+.h3 {
+  line-height:1.5;
+  font-size: 1.3em;
+  font-family: newFont2;
+  color: black;
+  text-align: center;
+
+}
+
+
+
+/*==================== Jollibee Section ====================*/
+
+
+
+.jollibee_sec {
+  height: auto;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+@media (min-width: 1030px) {
+.jollibee_sec {
+  background-image: url('Jollibee/jollibeesec.png');
+}
+}
+
+.jollibee_name{
+  position:relative;
+  top:10px;
+  height:130px;
+  width:330px;
+}
+
+@media (min-width: 1030px) {
+.jollibee_name{
+  top:-10px;
+  padding-left:40px;
+  height:130px;
+  width:330px;
+}
+}
+
+.jollibee_logo{
+  position:relative;
+  top:30px;
+  height:150px;
+  width:150px;
+}
+
+@media (min-width: 1030px) {
+.jollibee_logo{
+  height:150px;
+  width:150px;
+  padding-top:30px;
+}
+}
+
+.jollibee_description {
+  line-height:1.5;
+  font-size: 1.2em;
+  font-family: newFont2;
+  color: white;
+  text-align: center;
+  position:relative;
+  bottom:20px;
+}
+
+@media (min-width: 1030px) {
+.jollibee_description{
+  padding-left:10%;
+  padding-right:4%;
+  bottom:50px;
+}
+}
+
+.jollibee_quote { 
+  -webkit-text-stroke:1.5px black;
+  line-height:1;
+  letter-spacing: -2px;
+  font-size: 2em;
+  font-family: newFont;
+  color: white;
+  text-align: center;
+}
+
+@media (min-width: 1030px) {
+.jollibee_quote { 
+  font-size: 2.2em;
+}
+}
+
+button_jollibee {
+  border: 3px solid black;
+  border-color: white;
+  border-radius: 60px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5em;
+  font-family: newFont;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 140px;
+  position:relative;
+  bottom:20px;  
+  background-color: #fe6f00;
+}
+
+@media (min-width: 1030px) {
+button_jollibee { 
+  left:25px;
+  top:-65px;
+  padding: 10px 10px;
+  font-size: 1.5em;
+}
+}
+
+button_jollibee:hover {
+  background-color: orange;
+}
+
+
+/*==================== McDonald's Section ====================*/
+
+
+.McDo_sec {
+  height: auto;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+@media (min-width: 1030px) {
+.McDo_sec {
+  background-image: url('McDonalds/mcdosec.png');
+}
+}
+
+.mc_name{
+position:relative;
+  top:10px;
+  height:120px;
+  width:340px;
+}
+@media (min-width: 1030px) {
+.mc_name{
+  height:150px;
+  width:450px;
+  top:-10px;
+}
+}
+
+.MClogos{
+  position:relative;
+  top:50px;
+  height:150px;
+  width:200px;
+}
+@media (min-width: 1030px) {
+.MClogos{
+top:100px;
+left:10px;
+}
+}
+.mc_desc {
+  position:relative;
+  bottom:20px;
+  line-height:1.5;
+  font-size: 1.2em;
+  font-family: newFont2;
+  color: white;
+  text-align: center;
+}
+
+@media (min-width: 1030px) {
+.mc_desc{
+top:-50px;
+padding-right:7%;
+padding-left:2%;
+}
+}
+
+.mc_quote {
+
+  line-height:1;
+  letter-spacing: 1px;
+  font-size: 2em;
+  font-family: newFont3;
+  color: white;
+  text-align: center;
+  position:relative;
+  right:6px;
+}
+@media (min-width: 1030px) {
+.mc_quote{
+  top:40px;
+  font-size: 2.8em;
+}
+}
+button_mc {
+  border: 3px solid black;
+  border-color: white;
+  border-radius: 60px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5em;
+  font-family: newFont;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 140px;
+  position:relative;
+  bottom:20px;
+  background-color: #fe6f00;
+}
+@media (min-width: 1030px) {
+button_mc { 
+  right:15px;
+  top:-60px;
+  padding: 10px 10px;
+  font-size: 1.5em;
+}
+}
+
+button_mc:hover {
+  background-color: orange;
+}
+
+/*==================== Chowking Section ====================*/
+
+
+
+.Chowking_sec {
+  height: auto;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+@media (min-width: 1030px) {
+.Chowking_sec {
+  background-image: url('Chowking/chowkingsec.png');
+}
+}
+
+
+.chowking_name{
+
+  position:relative;
+  top:10px;
+  height:100px;
+  width:350px;
+}
+@media (min-width: 1030px) {
+.chowking_name{
+  height:120px;
+  width:450px;
+  top:-5px;
+  left:50px;
+}
+}
+
+
+.chowking_logo{
+  position:relative;
+  top:40px;
+  height:150px;
+  width:150px;
+}
+@media (min-width: 1030px) {
+.chowking_logo{
+  top:70px;
+}
+}
+
+.chowking_desc {  
+  position:relative;
+  bottom:20px;
+  line-height:1.5;
+  font-size: 1.2em;
+  font-family: newFont2;
+  color: white;
+  text-align: center;
+  padding-top:30px;
+}
+@media (min-width: 1030px) {
+.chowking_desc{
+  padding-left:12%;
+  padding-right:4%;
+  bottom:50px;
+}
+}
+
+.chowking_quote { 
+  -webkit-text-stroke:1.5px black;
+  line-height:1;
+  letter-spacing: -2px;
+  font-size: 3em;
+  font-family: newFont4;
+  color: white;
+  text-align: center;
+  position:relative;
+  right:6px;
+}
+@media (min-width: 1030px) {
+.chowking_quote{
+  top:20px;
+  font-size: 3.5em;
+}
+}
+
+button_ck {
+  border: 3px solid black;
+  border-color: white;
+  border-radius: 60px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5em;
+  font-family: newFont;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 140px;
+  position:relative;
+  bottom:20px;
+  background-color: #fe6f00;
+}
+@media (min-width: 1030px) {
+button_ck { 
+  right:-25px;
+  top:-60px;
+  padding: 10px 10px;
+  font-size: 1.5em;
+}
+}
+button_ck:hover {
+  background-color: orange;
+}
+
+/*==================== Mang Inasal Section ====================*/
+
+
+.manginasal_sec {
+  height: auto;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+@media (min-width: 1030px) {
+.manginasal_sec {
+  background-image: url('MangInasal/manginasalsec.png');
+}
+}
+
+.manginasal_name{
+  position:relative;
+  top:10px;
+  height:150px;
+  width:350px;
+}
+@media (min-width: 1030px) {
+.manginasal_name{
+  height:130px;
+  width:300px;
+  top:10px;
+}
+}
+.manginasal_logos{
+  position:relative;
+  top:30px;
+  height:100px;
+  width:200px;
+}
+@media (min-width: 1030px) {
+.manginasal_logos{
+  top:110px;
+}
+}
+.manginasal_desc {
+  position:relative;
+  bottom:20px;
+  line-height:1.5;
+  font-size: 1.2em;
+  font-family: newFont2;
+  color: white;
+  text-align: center;
+  padding-top:20px;
+ 
+}
+@media (min-width: 1030px) {
+.manginasal_desc{
+padding-left:10px;
+padding-right:30px;
+}
+}
+.manginasal_quote {
+  -webkit-text-stroke:1.5px black;
+  line-height:1;
+  letter-spacing: -2px;
+  font-size: 2.5em;
+  font-family: newFont5;
+  color: white;
+  text-align: center;
+  position:relative;
+  right:6px;
+}
+@media (min-width: 1030px) {
+.manginasal_quote{
+  top:80px;
+  font-size: 2.4em;
+  padding-left:140px;
+  padding-right:140px;
+}
+}
+
+button_manginasal {
+  border: 3px solid black;
+  border-color: white;
+  border-radius: 60px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5em;
+  font-family: newFont;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 140px;
+  position:relative;
+  bottom:20px;
+  background-color: #fe6f00;
+}
+@media (min-width: 1030px) {
+button_manginasal {  
+  top:-30px;
+  padding: 10px 10px;
+  font-size: 1.5em;
+}
+}
+button_manginasal:hover {
+  background-color: orange;
+}
+
+/*==================== Greenwich Section ====================*/
+
+
+
+.greenwich_sec {
+  height: auto;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+@media (min-width: 1030px) {
+.greenwich_sec {
+  background-image: url('Greenwich/greenwichsec.png');
+}
+}
+
+.greenwich_name{
+  position:relative;
+  top:10px;
+  height:100px;
+  width:340px;
+}
+@media (min-width: 1030px) {
+.greenwich_name{
+  height:120px;
+  width:450px;
+  top:-5px;
+  left:35px;
+}
+}
+.greenwich_logo{
+  position:relative;
+  top:20px;
+  height:150px;
+  width:150px;
+}
+@media (min-width: 1030px) {
+  .greenwich_logo{
+  top:70px;
+}
+}
+.greenwich_desc { 
+  position:relative;
+  bottom:20px;
+  line-height:1.5;
+  font-size: 1.2em;
+  font-family: newFont2;
+  color: white;
+  text-align: center;
+  padding-top:20px;
+}
+@media (min-width: 1030px) {
+.greenwich_desc{
+  padding-left:12%;
+  padding-right:4%;
+  bottom:50px;
+}
+}
+.greenwich_quote{ 
+  
+  line-height:1;
+  letter-spacing: 3px;
+  font-size: 2em;
+  font-family: newFont6;
+  color: white;
+  text-align: center;
+  position:relative;
+}
+@media (min-width: 1030px) {
+.greenwich_quote{
+  top:40px;
+  font-size: 2.8em;
+}
+}
+
+button_gw {
+  border: 3px solid black;
+  border-color: white;
+  border-radius: 60px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5em;
+  font-family: newFont;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 140px;
+  position:relative;
+  bottom:20px;
+  background-color: #fe6f00;
+}
+@media (min-width: 1030px) {
+button_gw { 
+  right:-25px;
+  top:-60px;
+  padding: 10px 10px;
+  font-size: 1.5em;
+}
+}
+button_gw:hover {
+  background-color: orange;
+}
+
+/*==================== References Section ====================*/
+
+.div4 {
+  padding:5px;
+  margin:0px;
+  
+}
+
+.reference_sec {
+  height: auto;
+  width: 100%;
+  background-image: url('Intro/section2bg.png');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.p1 {
+  line-height:2;
+  position: relative;
+  top:-30px;
+  font-size: 0.8em;
+  font-family: newFont2;
+  color: black;
+  text-align: center;
+
+}
+
+.p2 {
+  line-height:2;
+  position: relative;
+  font-size: 2em;
+  font-family: newFont2;
+  color: black;
+  text-align: center;
+  top:-10px;
+}
+/*==================== © 2025 by Tristan Dela Cruz Section ====================*/
+
+.c_sec {
+  height: 40px;
+  width: 100%;
+  background-color:black;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+
+}
+
+.p3 {
+  font-size: 15px;
+  font-family: Arial;
+  color: white;
+  text-align: center;
+  position:relative;
+  top:10px;
+  padding:2px;
+  margin:0px;
+}
+
